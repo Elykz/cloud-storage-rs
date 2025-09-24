@@ -34,7 +34,7 @@ dotenv =           { version = "0.15", default-features = false }
 openssl =          { version = "0.10", default-features = false, optional = true }
 ring =             { version = "0.16", default-features = false, optional = true }
 pem =              { version = "0.8",  default-features = false, optional = true }
-time =             { version = "0.3",  default-features = false, features = ["serde-well-known", "serde-human-readable", "macros"]}
+chrono =           { version = "0.4",  default-features = false, features = ["serde", "alloc", "now"]}
 hex =              { version = "0.4",  default-features = false, features = ["alloc"] }
 tokio =            { version = "1.0",  default-features = false, features = ["macros", "rt"] }
 tokio-util =       { version = "0.7",  default-features = false, features = ["compat"] }
